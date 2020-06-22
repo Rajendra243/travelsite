@@ -1,0 +1,26 @@
+<html>
+<head>
+<style>
+body{
+background-color:yellow;
+
+font-size:28px;
+}
+</style>
+</head>
+<body>
+<p>Click the button to display the style properties of this document.</p>
+<button onclick="myfun()">try it</button>
+<h1 id="myh">hello</h1>
+<p id="demo"></p>
+<script>
+function myfun(){
+var x=document.getElementsByTagName("STYLE")[0];
+document.getElementById("demo").innerHTML=x.innerHTML;
+document.getElementById("myh").style.color="red";
+}
+
+</script>
+
+</body>
+</html>
