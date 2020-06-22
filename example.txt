@@ -10,7 +10,7 @@ font-size:28px;
 </head>
 <body>
 <p>Click the button to display the style properties of this document.</p>
-<button onclick="myfun()">try it</button>
+<button onclick="myfun()">click me</button>
 <h1 id="myh">hello</h1>
 <p id="demo"></p>
 <script>

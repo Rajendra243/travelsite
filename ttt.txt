@@ -15,7 +15,7 @@ transition-timing-function:linear;
 transition-duration:1s;
 }
 .box:hover{
-background:#ff7b29;
+background:blue;
 border-radius:50px;
 }
 </style>
